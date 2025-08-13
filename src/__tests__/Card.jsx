@@ -2,8 +2,8 @@ import '@testing-library/jest-dom';
 import Card from '../Components/Card';
 import {screen , render} from '@testing-library/react';
 const bag = [
-    {title : "parth",desc : "Hello world from parth bro ...."},
-    {title : "parth kapoor",desc : "Hello world 2023 ...."}
+    {title : "Deepanshu",desc : "Hello world from Deepanshu bro ...."},
+    {title : "Deepanshu Sharma",desc : "Hello world 2023 ...."}
 ];
 describe.only("Card" , ()=>{
     test("cardDataFlow" , ()=>{

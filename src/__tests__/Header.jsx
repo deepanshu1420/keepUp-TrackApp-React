@@ -8,7 +8,7 @@ describe.only("Header" , ()=>{
         const mainHeading = screen.getByRole("heading");
         expect(mainHeading).toBeInTheDocument();
 
-        const subHeading = screen.getByText("parth");
+        const subHeading = screen.getByText("Deepanshu");
         expect(subHeading).toBeInTheDocument();
     } , 500);
 });
